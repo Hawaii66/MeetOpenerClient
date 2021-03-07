@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #ecf0f1
+}
+
+.CreateLecture {
+    width: 10%;
+    margin-left: 90%;
+    margin-top: 1%;
+}
+
+#Heading {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #2c3e50
+}
+
+#changeTableInput {
+    border-style: groove;
+    border-color: #34495e;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #2c3e50;
+}
+
+#ShowTable {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#showTimeTableChechBox {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#timetableForm {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-color: black;
+    border-style: groove;
+    margin-top: 1%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#timetableForm.formh2 {
+    color: #2c3e50;
+}
+
+#timetableForm.changeTableButton {
+    background-color: #008CBA;
+    color: white;
+    border-radius: 7%;
+    margin-top: 1em;
+    width: 50%;
+}
+
+.TimeTable {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.TimeTableDay {
+    border: black solid;
+}
+
+.TimeTableHeader {
+    margin-top: 2%;
+}
+
+.TimeTableLecture {
+    margin: 1em 1em;
+    border: black solid;
+    border-radius: 7px;
+}
+
+.ErrorHandler {
+    margin-top: 1em;
+    color: #c0392b;
+    text-align: center;
+}
+
+
+/*MOVE TO OTHER*/
+
+.CreateTimeTableClass {
+    border-style: groove;
+}
+
+#Login {
+    float: right;
+    margin-left: 90%;
+    position: fixed;
+    z-index: 100;
+}
+
+p {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}

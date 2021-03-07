@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Opener</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="CreateLecture">
+        <button onclick="OpenAdmin()">Create A Timetable</button>
+    </div>
+    <header>
+        <h1 id="Heading">Meet Opener</h1>
+    </header>
+
+    <div class="TimeTable"></div>
+    <div id="changeTableInput">
+        <form id="ShowTable">
+            <h2>Change Table</h2>
+            <input type="checkbox" name="showTimeTableChechBox" id="showTimeTableChechBox" onclick="TimeTableShowChange()" />
+        </form>
+        <form id="timetableForm">
+            <h2 class="formh2">Name of timetable</h2>
+            <input type="text" name="TimeTableName" id="TimeTableName" />
+            <h2 class="formh2">Password</h2>
+            <input type="number" name="TimeTablePassword" id="TimeTablePassword" />
+            <br />
+            <button id="changeTableButton">Change Table</button>
+        </form>
+        <div class="ErrorHandler">
+            <h2>Error with input</h2>
+        </div>
+    </div>
+    <p id="Remember">
+        Remember: You have to aprove the first tab to be opend. A small popup will open up when it wants to open up the first time
+    </p>
+
+    <script src="client.js"></script>
+</body>
+
+</html>
